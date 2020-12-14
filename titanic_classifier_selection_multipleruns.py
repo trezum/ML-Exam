@@ -95,11 +95,11 @@ count = 0
 
 #Classifiers with deafult parmeterse
 classifiers = [
-    # LogisticRegression(max_iter=10000),
-    # DecisionTreeClassifier(),
-    # LinearSVC(max_iter=10000),
-    # RandomForestClassifier(),
-    # MLPClassifier(max_iter=10000),
+    LogisticRegression(max_iter=10000),
+    DecisionTreeClassifier(),
+    LinearSVC(max_iter=10000),
+    RandomForestClassifier(),
+    MLPClassifier(max_iter=10000),
     KNeighborsClassifier(),
 ]
 
