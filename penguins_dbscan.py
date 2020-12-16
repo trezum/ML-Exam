@@ -100,7 +100,7 @@ def correct_observation_calculator(correct, observed):
 # df = pd.DataFrame(scaler.fit_transform(df), index=df.index, columns=df.columns)
 #df = df_scaled
 
-db = DBSCAN(eps=78.75139345732582, min_samples=9).fit(df)
+
 db = DBSCAN(eps=78.75139345732582, min_samples=9).fit(df)
 # core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 # #assign true to the all the samles indicated as core_points by the algorithm
